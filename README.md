@@ -1,17 +1,19 @@
 # Amazon_Vine_Analysis
- Overview of the analysis: The Amazon Vine program is a servce that allows  manufacturers and  publishers to receive product reviews. Sellby is a small company that provides products to Amazon and is reqquired to pubulis a review.  The task is to provide review analysis written by members of the paid Amazon Vine Program. On this project 50 datasets can be accessed and have to choose on of the datasets and use Spypark to perform ETL to process and extract and transform datea and connect to an AWS RDS database  and transform data into PGAdmin. Once transformed. We'll any of the 3 mehods using Pyspask, Pandas, or SQL to determine any bias on revies from Vine members in dataset.
+ Overview of the analysis: The Amazon Vine program is a service that allows  manufacturers and  publishers to receive product reviews. Sellby is a small company that provides products to Amazon and is required to publish a review.  The project task is to provide review analysis written by members of the paid Amazon Vine Program. On this project 50 datasets can be accessed and we have to select one of the datasets and use Spypark to perform ETL to process and extract a and connect to an AWS RDS database  and transform data into PGAdmin database. Once transformed,  we'll use any of the 3 mehods using Pyspask, Pandas, or SQL to determine any bias on reviews from Vine members in the dataset.
 
 # Results:
+Below are the image results from the selected dataset per deliverable requirements. 
 
 ## Deliverable 1  - Performing  ETL on Amazon Product Reviews
 
-## Selected or  dataset used:
-   https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Video_Games_v1_00.tsv.gz
+## Selected or  dataset used:   https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Video_Games_v1_00.tsv.gz
+The dataset has total count of 145,431.
    
 ## customers_table DataFrame 
-![customers table_del1](https://user-images.githubusercontent.com/92903447/155858478-54674473-9f05-4fca-818c-dd42505afae3.png)
+A new dDataFrame or table was created to filter and retrieve all the rows where the total_votes count is equal to or greater than 20 to pick reviews that are more likely to be helpful.
+![customers table_del1](https: new DataFrame or table to retrieve all the rows where the total_votes count is equal to or greater than 20 to pick reviews that are more likely to be helpful//user-images.githubusercontent.com/92903447/155858478-54674473-9f05-4fca-818c-dd42505afae3.png)
 
-## pustomers_table DataFrame 
+## customers_table DataFrame 
 ![Del1_Products_table](https://user-images.githubusercontent.com/92903447/155858558-bd096309-7541-4fc7-ab0b-fe66335cdfe7.png)
 
 ## review_id_table DataFrame 
