@@ -11,14 +11,13 @@ Selected or  dataset used:   https://s3.amazonaws.com/amazon-reviews-pds/tsv/ama
 The dataset has total count of 145,431.
 ![Del_dataframe count](https://user-images.githubusercontent.com/92903447/155860684-3d61f9f2-4d76-4bb2-956e-1902ef845f22.png)
 
-   
-## customers_table DataFrame 
 A new DataFrame or table was created to filter and retrieve all the rows where the total_votes count is equal to or greater than 20 to pick reviews that are more likely to be helpful.
 
-Deliverable1 - PGAdmin - Customer table 
+Deliverable1 - PGAdmin  Tables
+## customers_table DataFrame 
 ![customers table_del1](https://user-images.githubusercontent.com/92903447/155858478-54674473-9f05-4fca-818c-dd42505afae3.png)
 
-## customers_table DataFrame 
+## products_table DataFrame 
 ![Del1_Products_table](https://user-images.githubusercontent.com/92903447/155858558-bd096309-7541-4fc7-ab0b-fe66335cdfe7.png)
 
 ## review_id_table DataFrame 
@@ -49,7 +48,7 @@ Deliverable1 - PGAdmin - Customer table
 ![5 star percentage unpaid vine program](https://user-images.githubusercontent.com/92903447/155859110-087ec607-54d5-4581-aedc-734f8dba0307.png)
 
 
-# Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+# Summary: 
 
 After narrowing down the dataset, the paid vine program has resulted to zero percent review that cause to falter to a zero division error in  running script and therefore reviews for paid and unpaid vine programs are uncomparable.  The analysis is biased towards unpaid Vine reviews which has total count of 1685 unpaid vine program. Another key measure to check is the comparative percentage run of unpaid 5-star vine reviews,  that has  total count of 631 which resulted to 37.4% vs. the 0 percent paid reviews which makes the unpaid Vine biased as well.
 
