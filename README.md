@@ -50,3 +50,11 @@ ercentage of non-Vine reviews were 5 stars?
 
 # Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
 
+After narrowing down the dataset, the paid vine program has resulted to zero percent review that cause to falter to a zero division error in  running script and therefore reviews for paid and unpaid vine programs are uncomparable.  The analysis is biased towards unpaid Vine reviews which has total count of 1685 unpaid vine program. Another key measure to check is the comparative percentage run of unpaid 5-star vine reviews,  that has  total count of 631 which resulted to 37.4% vs. the 0 percent paid reviews which makes the unpaid Vine biased as well.
+
+We could take a test sample of adjusting 50% of helpful  or 2O likes and see if we can reconsider using this dataset.
+
+
+
+
+
