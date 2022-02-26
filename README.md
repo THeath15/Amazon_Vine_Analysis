@@ -38,14 +38,14 @@ Deliverable1 - PGAdmin - Customer table
 
 ###How many Vine reviews were 5 stars? 0 count of vine review . 
 ### How many non-Vine reviews were 5 stars?  631
-![total number of revies, nmber of star reviews of paid and unpaid](https://user-images.githubusercontent.com/92903447/155859089-aa68e43f-b2b4-4ca6-af1e-d05c0fda1925.png)
+![total number of reviews, nmber of star reviews of paid and unpaid](https://user-images.githubusercontent.com/92903447/155859089-aa68e43f-b2b4-4ca6-af1e-d05c0fda1925.png)
 
 
 ### What percentage of Vine reviews were 5 stars?  Vine review shows 0 percent of  5 star rating  for paid vine program .
 ### What percentage of non-Vine reviews were 5 stars? The unpaid vine reviews shows 37.4 of unpaid vine program.
 
 ![5 star paid reviews](https://user-images.githubusercontent.com/92903447/155859105-0956dc98-57e4-4af8-bbaa-f6ea55fea9e6.png)
-ercentage of non-Vine reviews were 5 stars?
+
 ![5 star percentage unpaid vine program](https://user-images.githubusercontent.com/92903447/155859110-087ec607-54d5-4581-aedc-734f8dba0307.png)
 
 
