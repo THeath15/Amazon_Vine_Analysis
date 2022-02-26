@@ -13,18 +13,26 @@ The dataset has total count of 145,431.
 
 A new DataFrame or table was created to filter and retrieve all the rows where the total_votes count is equal to or greater than 20 to pick reviews that are more likely to be helpful.
 
-Deliverable1 - PGAdmin  Tables
+# Deliverable1 - PGAdmin  Tables
 ## customers_table DataFrame 
 ![customers table_del1](https://user-images.githubusercontent.com/92903447/155858478-54674473-9f05-4fca-818c-dd42505afae3.png)
+![image](https://user-images.githubusercontent.com/92903447/155861716-b6dffdd9-e267-4979-9bc6-ce7ca07af742.png)
+
 
 ## products_table DataFrame 
 ![Del1_Products_table](https://user-images.githubusercontent.com/92903447/155858558-bd096309-7541-4fc7-ab0b-fe66335cdfe7.png)
+![image](https://user-images.githubusercontent.com/92903447/155861737-01febab1-6a70-43da-95f1-fc470856cee7.png)
+
 
 ## review_id_table DataFrame 
 ![Del1_review_id_table](https://user-images.githubusercontent.com/92903447/155858564-7f3c7bf2-d956-4163-b302-3cb969d113e2.png)
+![image](https://user-images.githubusercontent.com/92903447/155861757-6c0b9ae5-83f9-4b84-86a6-84e2124f4e15.png)
+
 
 ## vine_id_table DataFrame 
 ![Del1_vine_table](https://user-images.githubusercontent.com/92903447/155858571-2c3ba950-4be1-4cdb-b783-7cd7b0e03665.png)
+![image](https://user-images.githubusercontent.com/92903447/155861768-81af84df-9db7-4f0c-9779-f264f0f7d475.png)
+
 
 
 ## Deliverable 2 - Determine Bias of Vine Reviews
@@ -35,8 +43,9 @@ Deliverable1 - PGAdmin  Tables
 
 ![Del2_filtered DataFrame_paid vine program](https://user-images.githubusercontent.com/92903447/155858865-247194e8-68b6-4d28-b8c6-4e2acb4fc0f7.png)
 
-###How many Vine reviews were 5 stars? 0 count of vine review . 
+### How many Vine reviews were 5 stars? 0 count of vine review . 
 ### How many non-Vine reviews were 5 stars?  631
+
 ![total number of reviews, nmber of star reviews of paid and unpaid](https://user-images.githubusercontent.com/92903447/155859089-aa68e43f-b2b4-4ca6-af1e-d05c0fda1925.png)
 
 
