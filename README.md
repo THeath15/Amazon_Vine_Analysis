@@ -1,8 +1,7 @@
 # Amazon_Vine_Analysis
+ Overview of the analysis: The Amazon Vine program is a servce that allows  manufacturers and  publishers to receive product reviews. Sellby is a small company that provides products to Amazon and is reqquired to pubulis a review.  The task is to provide review analysis written by members of the paid Amazon Vine Program. On this project 50 datasets can be accessed and have to choose on of the datasets and use Spypark to perform ETL to process and extract and transform datea and connect to an AWS RDS database  and transform data into PGAdmin. Once transformed. We'll any of the 3 mehods using Pyspask, Pandas, or SQL to determine any bias on revies from Vine members in dataset.
 
-# Overview of the analysis: The Amazon Vine program is a servce that allows  manufacturers and  publishers to receive product reviews. Sellby is a small company that provides products to Amazon and is reqquired to pubulis a review.  The task is to provide review analysis written by members of the paid Amazon Vine Program. On this project 50 datasets can be accessed and have to choose on of the datasets and use Spypark to perform ETL to process and extract and transform datea and connect to an AWS RDS database  and transform data into PGAdmin. Once transformed. We'll any of the 3 mehods using Pyspask, Pandas, or SQL to determine any bias on revies from Vine members in dataset.
-
-# Results: Using bulleted lists and images of DataFrames as support, address the following questions:
+# Results:
 
 ## Deliverable 1  - Performing  ETL on Amazon Product Reviews
 
